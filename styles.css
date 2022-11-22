@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    margin:0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#right{
+
+    background-color:rgb(1, 5, 124);
+    display: inline;
+    float:right;
+    width: 65%;
+    height: 100%;
+    text-align: center;
+}
+
+#left{background-color: white;display: inline;float: left;width: 10%;height: 100%;}
+
+#left>img{
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    width: 15%;
+    align-content: center;
+}
+
+#left>div{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+
+.logintext{
+    text-align: center;
+    text-shadow: 3px 3px 10px #ff8888;
+}
+
+.loginblock{
+    position: absolute;
+    font-size:2rem;
+    font-weight: bolder;
+    top: 20%;
+    left:55%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    align-content: center;
+}
+
+form > label, form >input{
+    font-weight:lighter;
+    font-size:1.3rem;
+    border-width:3px;
+    border-color:rgb(8, 147, 211);
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+.loginblock>label{
+    position: absolute;
+    left: 60%;
+
+}
+
+#btn{
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#9fdbe3;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px 2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#inputuname,#inputpswd{
+    width:100%;
+}
+#createactext{
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+a{
+    font-style: none;
+}
+
+.text{
+    margin-top:30px;
+    font-weight: bold;
+    text-shadow:3px 3px 6px gray;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="..\Style\createac.css">
+    <script defer src="..\index.js"></script>
+    
+</head>
+
+
+
+<body>
+
+
+    <div id="left">
+        <a href="../index.html">
+            <img src="../Images/logo.png" alt="">
+        </a>
+        <div >University of Seoul</div>
+    </div>
+
+
+    <div id="right" >
+        <div id="loginblock" style="padding-top: 0;">
+            <form id="form" action="MainLogin.html">
+                <h1 style="color: aliceblue;margin-bottom: 5px;">Create Account</h1>
+
+                <div class="inputcontrol">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+
+                <div class="inputcontrol">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+
+                <div class="inputcontrol">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                
+                <div class="inputcontrol">
+                    <label for="password">Confirm password</label>
+                    <input id="password2" name="password2" type="password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Create account</button>
+                <span style="color: wheat;">Already have an account? <a href="MainLogin.html" style="color: lightblue;">Login here</a> </span>
+            </form>     
+        </div>  
+
+    </div>
+
+</body>
+
+
+
+
+
+</html>

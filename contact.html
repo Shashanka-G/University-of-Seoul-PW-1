@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Design Institute of Paris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"> -->
+<style>
+    h2{
+        text-align: center;
+        color: white;
+        animation: myAnim 2s ease 0s 1 normal forwards;   
+        margin-top: 4%;
+        padding-bottom: 2%;
+    }
+    @keyframes myAnim {
+        0% {
+            transform: scale(0.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    ion-icon{
+        color: white;
+        font-size: 32px;
+    }
+
+    .phone,.location,.fax,.email,.ask{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .content{
+        padding-left: 1%;
+        margin-top: 25px;
+    }
+
+    .icon{
+        margin-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    @media(max-width:600px){
+
+    }
+
+
+
+</style>
+</head>
+<body>
+   <section class="header">
+       <nav>
+           <a href="index.html"><img src="Images\logo.png" alt="Logo"></a>
+           <div class="nav-links">
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="knowmore.html">ABOUT</a></li>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#campus">CAMPUS</a></li>
+                <li><a href="index.html#facilities">FACILITIES</a></li>
+                <li><a href="HTML/MainLogin.html">LOGIN</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+              </ul>
+           </div>
+        </nav> 
+
+        <h2 class="contact">CONTACT&nbsp;US</h2>
+
+        <div class="phone">
+            <div class="icon">
+                <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div class="content">PHONE:+33-7525 8646</div>
+        </div>
+
+        <div class="location">
+            <div class="icon">
+                <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="content">LOCATION: <a href="https://goo.gl/maps/5AjrJVNWLiJn9cxGA">https://maps.google.com/loc</a></div>
+        </div>
+
+        <div class="fax">
+            <div class="icon">
+                <ion-icon name="file-tray-outline"></ion-icon>
+            </div>
+            <div class="content">FAX:&nbsp; +1 323 555 1234</div>
+        </div>
+
+        <div class="email">
+            <div class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="content">E-MAIL:&nbsp;<a href="#">contact.ouruniversity.in</a></div>
+        </div>
+
+        <div class="ask">
+            For more details <a href="contact2.html">&nbsp;click here.</a>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+
+</html>

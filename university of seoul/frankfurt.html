@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0" charset="utf-8">
+    <title>Frankfurt</title>
+    <link rel="stylesheet" href="style_frankfurt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/04fe058c42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="data:image/png;base64,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"></a>
+            <div class="nav-links">
+              <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CAMPUS</a></li>
+                    <li><a href="">FACILITIES</a></li>
+                    <li><a href="">LOGIN</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">KNOW MORE</a></li>
+               </ul>
+            </div>
+         </nav> 
+        <div class="text-box">
+            <h1>SEOUL UNIVERSITY OF ENGINEERING,FRANKFURT</h1>
+            <p>Ranked among the best in the world, our University in Tokyo offers degrees in  the different branches of engineering. 
+                <br> Keep scrolling to find out more</p>
+        </div>
+     </section>
+
+      <!-- ABOUT -->
+      <section class="about">
+        <h1>ABOUT</h1>
+        <div class="para">
+            <p>Engineering plays a critical role in enhancing social progress and improving our quality of life, 
+              and rapid and efficient access to new innovations is necessary to tackle myriad challenges. The SEAS
+               engineering programs educate future leaders with the technical background necessary to develop and 
+               critically evaluate the next wave of engineering innovations, to apply
+               these innovations to important local and global problems, and to make informed decisions
+                about them in a societal context. </p>
+                <p><br></p>
+            <p>Because the engineering concentrations exist within the University's liberal arts environment, it provides 
+              students with both the breadth and depth of study necessary to excel in integrative areas of engineering. 
+              The curriculum emphasizes a solid background in applied science and mathematical analysis, with ample 
+              opportunities to apply these fundamentals to real-world issues and learn about state-of-the-art technologies. Students gain experience in the engineering design process,
+               which is a unique engineering activity that requires creative synthesis and analysis to fulfill specified needs.</p>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="courses">
+        <h1>DEGREES OFFERED</h1>
+        <p><a href="">VIEW MORE</a></p>
+        <div class="row">
+            <div class="course-column">
+                <h3>UNDER-GRADUATE</h3>
+                <ul>
+                  <li>Computer Science</li>
+                  <li>Electronics and Communication</li>
+                  <li>Mechanical</li>
+                  <li>Civil</li>
+                  <li>Aerospace</li>
+                  <li>Biotechnology</li>
+
+                </ul>
+            </div>
+            <div class="course-column">
+                <h3>POST-GRADUATE</h3>
+                <ul>
+                  <li>Robotics</li>
+                  <li>Micro-Electronics</li>
+                  <li>Environmental</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h1>STUDENT REVIEWS</h1>
+        <p>Here's what some of our diverse student population has to say.</p>
+        <div class="row">
+            <div class="testimonial-column">
+                <img src="f_s2.jpg">
+                <div>
+                    <p>I did my Under-Graduate course in the branch of Computer Science from this prestigious University and I feel
+                      so priveleged. The professors have imparted knowledge to me in very unique ways through different teaching techniques.
+                      The laboratories were my favourite part as they had up-to-date, expensive equipments to ensure learning of the highest quality.
+                      I feel very confident to venture out to different fields after graduation.</p>
+                    <h4>MAYA GELLER</h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-column">
+                <img src="f_s1.jpg">
+                <div>
+                    <p>Having completed my Post-Graduation in the branch of Robotics, I'm sure I've gained immense knowledge from all the 
+                      classes I took here. The scope given to extra-curricular activities was also pretty impressive and this helped me keep 
+                      in touch with my soccer skills. The dorms are quite warm and home-like and I never felt away from home. Thank you to 
+                      all the people in the University who made this journey of mine quite memorable!</p>
+                    <h4>HARRY MARKSON</h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+
+      <!-- Gallery -->
+      <h1 class="gallery">GALLERY</h1>
+      <section class="show middle">
+        
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+          <input type="radio" name="r" id="r4">
+          <input type="radio" name="r" id="r5">
+          <div class="slide s1">
+            <img src="f_lib.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="f_img.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="f_class.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="f_comp.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="f_students.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+          <label for="r4" class="bar"></label>
+          <label for="r5" class="bar"></label>
+        </div>
+      </section>
+
+      <!-- CONTACT US -->
+      <section class="cta">
+        <h1>ADMISSIONS OPEN FOR<br> THE ACADEMIC YEAR 2022-23</h1>
+        <a href="" class="button">CONTACT US</a>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <hr>
+      <h4>ABOUT US</h4>
+      <p>In mattis mi turpis, ut pulvinar lacus accumsan in.<br> Maecenas nec ante porta, dictum justo eget, gravida lorem.
+      <br>&copy;2021 WEBPAGE MODEL</p>
+  </section>
+</html>
+</html>
